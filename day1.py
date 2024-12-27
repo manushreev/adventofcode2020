@@ -1,6 +1,7 @@
 
 def main():
-  input_file="/Users/manushree/Downloads/input.txt"
+  import sys
+    input_file = sys.argv[1]
   file1 = open(input_file, "r")
   lines = file1.readlines()
   print(len(lines))   
